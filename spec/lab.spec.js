@@ -26,7 +26,7 @@ describe('collections lab', function() {
       'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the', 'the',
       'them', 'them', 'them', 'they', 'to', 'to', 'to', 'to', 'to',
       'when', 'which', 'which', 'which', 'with'
-      ];
+    ];
 
     it('has the correct length', function() {
       expect(collFuncs.getNormalizedWords(paragraph).length).toBe(71);
